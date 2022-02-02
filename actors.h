@@ -31,6 +31,7 @@ public:
 	string ability7;
 	string ability8;
 
+	//current constructor for Character and Enemy
 	void Fill(string a, int b, int c, int d, int e, int f, int g, int h, int i, int j, string k, 
 		bool l, string m, string n, string o, string p, string q, string r, string s, string t) {
 		name = a;
