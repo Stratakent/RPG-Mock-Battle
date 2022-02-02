@@ -44,8 +44,7 @@ string getEnemy(int RNG) {
 		enemy = "General";
 		break;
 	default:
-		cout << "You suck";
-		enemy = "You suck";
+		enemy = "Invalid";
 		break;
 	}
 	return enemy;
