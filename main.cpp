@@ -14,34 +14,34 @@ string getEnemy(int RNG) {
 
 	switch (RNG) {
 	case 1:
-		enemy = "Swordmaster";
+		enemy = "Mercenary";
 		break;
 	case 2:
-		enemy = "Veteran";
+		enemy = "Soldier";
 		break;
 	case 3:
 		enemy = "Warrior";
 		break;
 	case 4:
-		enemy = "Hunter";
+		enemy = "Slime";
 		break;
 	case 5:
-		enemy = "Monk";
+		enemy = "Wolf";
 		break;
 	case 6:
-		enemy = "Rogue";
+		enemy = "Treant";
 		break;
 	case 7:
-		enemy = "Hero";
+		enemy = "Mushroom";
 		break;
 	case 8:
-		enemy = "Warlock";
+		enemy = "Wizard";
 		break;
 	case 9:
 		enemy = "Paladin";
 		break;
 	case 10:
-		enemy = "General";
+		enemy = "Dragon";
 		break;
 	default:
 		enemy = "Invalid";
@@ -70,6 +70,7 @@ int main() {
 	system("pause");
 	cout << "Generating Encounter..." << endl;
 
+	//simulating random enemies encounter
 	srand(time(NULL));
 
 	int encounter1 = (rand() % 10) + 1;
