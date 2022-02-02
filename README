@@ -1,2 +1,8 @@
 Code currently: #A mock text battle system that will eventually evolve into a modern RPG
 All other detail stuff and data necessary to plan for this
+
+Current objectives to get a working demo:
+
+I. Finish sorting out enemy types
+II. Finishing getting a baseline for the battle system
+III. Ironing out unique abilities and items
